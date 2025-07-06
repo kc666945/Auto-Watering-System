@@ -43,7 +43,7 @@
 ## 🖼️ 系統展示
 
 ### 🧪 電路圖與模擬圖
-![Circuit Diagram](circuit_diagram.png)
+![Circuit Diagram](土壤溼度電路程式 2025-07-05 204144.png)
 
 ### 📸 實體裝置照片
 ![System Setup](system_photo.jpg)

@@ -1,31 +1,70 @@
-# Auto-Watering-System
-# Auto Watering System 💧🌿
+# 🌿 ESP32 永續農業智慧澆水系統
 
-An IoT-based smart watering system using **ESP32** and **Blynk IoT**.
+這是一個以 **永續農業（Sustainable Agriculture）** 為出發點，所設計的 **智慧自動澆水系統**。本專題結合 **ESP32 開發板** 與 **IoT 雲端平台**，實現低耗能、即時回饋的澆灌控制系統，致力於提升農業用水效率，並降低人力依賴。
 
-## 🌱 Features
-- Automatically reads soil moisture via analog sensor
-- Controls water pump via relay module
-- Adjustable threshold via Blynk mobile app
-- Manual override via App button
-- Data visualization via virtual gauge
+---
 
-## 🧠 Hardware Used
-- ESP32 Dev Board
-- Capacitive Soil Moisture Sensor
-- Relay Module
-- DC Water Pump
-- Power Supply
+## 📦 專案特色
 
-## 📱 App Interface
-Built with Blynk IoT App:
-- V0: Gauge (Moisture)
-- V1: Slider (Threshold)
-- V2: Button (Pump Control)
+- 🧠 **自動感測**：偵測土壤濕度，濕度過低自動啟動水泵。
+- ☁️ **IoT 整合**：濕度數據上傳雲端，遠端即時查看。
+- 📱 **手機控制**：透過 App 介面調整澆水門檻或手動啟動。
+- 💧 **節能永續**：僅在需要時澆水，減少浪費。
+- 🧪 **模擬驗證**：使用 Thinkercad 進行預先電路模擬。
 
-## 🖼️ Photos
-![System Diagram](circuit_diagram.png)
-![Real Setup](setup_photo.jpg)
+---
 
-## 📄 Report
-[Download Project Report (PDF)](report.pdf)
+## 🧰 使用硬體
+
+| 元件名稱 | 功能 |
+|----------|------|
+| ESP32 Dev Board | 主控晶片，具 WiFi 能力 |
+| 土壤濕度感測器 | 偵測土壤乾濕程度 |
+| 小型 DC 水泵 | 執行澆水動作 |
+| 繼電器模組 | 控制水泵啟動與關閉 |
+| 麵包板與杜邦線 | 原型電路接線 |
+| 外部電源模組 | 給水泵穩定供電 |
+
+> 模擬部分使用 [Thinkercad Circuits](https://www.tinkercad.com/) 進行設計與驗證
+
+---
+
+## 🌐 IoT 平台整合
+
+- 使用平台：**Blynk IoT / ThingSpeak / LINE Notify（視應用選擇）**
+- 功能包含：
+  - 顯示即時濕度數值
+  - 調整澆水門檻（Slider）
+  - 手動控制水泵（Button）
+  - 濕度過低即時通知（可選擇 LINE）
+
+---
+
+## 🖼️ 系統展示
+
+### 🧪 電路圖與模擬圖
+![Circuit Diagram](circuit_diagram.png)
+
+### 📸 實體裝置照片
+![System Setup](system_photo.jpg)
+
+### 📱 手機 App 操作介面
+![Blynk App UI](blynk_ui.jpg)
+
+---
+
+## 📄 附加資料
+
+- [📥 點我下載完整報告 PDF](report.pdf)
+- [📎 看模擬設計（TinkerCAD 分享連結）](https://www.tinkercad.com/your-link-here)
+- [🧪 系統功能影片 (YouTube 連結或 gif 可放這)](https://youtube.com/your-demo)
+
+---
+
+## 📚 製作動機與理念
+
+在全球面臨氣候變遷、水資源緊縮的挑戰下，**農業用水的智慧化管理**變得格外重要。本專題從我自身對農業與科技的興趣出發，試圖打造一套**低成本、高效率、易維護的澆灌系統**，希望未來能應用於更多偏鄉或小型農地，實現「**科技 X 農業 X 永續**」的跨域整合。
+
+---
+
+> 本專案為高中自主學習專題，亦可作為學習歷程作品、科展展示或創意競賽使用。

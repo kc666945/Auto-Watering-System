@@ -52,8 +52,8 @@
 -起初先從Arduino Uno開始設計電路，後來發現有數據紀錄的需求，因此將控制板改為具wifi及藍芽系統的ESP32，ESP32與Arduino系統相容性高，因此在電路上的模擬，我皆是由Arduino Uno在Thinkercad上做電路設計。
 ### 🧪 電路圖與模擬圖
 ![cir svg](cirsvg.pdf)
-![LED DARK](LED DARK.png)
-![LED LIGHT](LED LIGHT.png)
+![LED DARK](LEDDARK.png)
+![LED LIGHT](LEDLIGHT.png)
 
 ### 📸 實體裝置照片
 ![System Setup](system_photo.jpg)

@@ -56,10 +56,11 @@
 ![LED LIGHT](LEDLIGHT.png)
 
 ### 📸 實體裝置照片
-![System Setup](system_photo.jpg)
+![System Setup](S__31121597_0.jpg)
+![System Setup](S__31121595_0.jpg)
 
-### 📱 手機 App 操作介面
-![Blynk App UI](blynk_ui.jpg)
+### 📱 手機TELEGRAM 回報機器人設定 操作介面
+![Blynk App UI](S__60538882.jpg)
 
 ---
 
